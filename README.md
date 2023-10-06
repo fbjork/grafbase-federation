@@ -5,4 +5,4 @@ This example shows how to connect an OpenAPI data source and expose an Apollo Fe
 ## Quickstart
 1. Install the [Grafbase CLI](https://www.npmjs.com/package/grafbase)
 2. Start the Grafbase dev server: `gb dev`
-3. Pass the `Authorization` header with your OpenAI API key in your favorite [GraphQL IDE](https://pathfinder.dev)
+3. Pass the `Authorization` header with your GitHub API key using your favorite [GraphQL IDE](https://pathfinder.dev)

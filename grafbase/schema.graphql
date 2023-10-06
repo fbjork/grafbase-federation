@@ -2,8 +2,6 @@ extend schema
   @federation(version: "2.3")
   @auth(rules: [{ allow: public }])
   @openapi(
-    name: "OpenAI"
-    schema: "https://raw.githubusercontent.com/openai/openai-openapi/master/openapi.yaml"
-    headers: [{ name: "Authorization", forward: "Authorization" }]
-    transforms: { queryNaming: OPERATION_ID }
-  )
+    name: "GitHub",
+    schema: "https://github.com/github/rest-api-description/raw/main/descriptions/ghec/ghec.json",
+    headers: [{ name: "Authorization", forward: "Authorization" }])
